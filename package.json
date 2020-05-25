@@ -1,0 +1,31 @@
+{
+  "name": "ink-hello-world",
+  "version": "1.0.0",
+  "description": "Hello World from ink",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node src/index.js -e js",
+    "build": "babel src --out-dir lib"
+  },
+  "keywords": [],
+  "author": {
+    "name": "AndoGhevian",
+    "email": "andranik.ghevondyan66@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "ink": "^2.7.1",
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-syntax-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-plugin-root-import": "^6.5.0",
+    "nodemon": "^2.0.4"
+  }
+}

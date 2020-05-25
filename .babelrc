@@ -1,0 +1,23 @@
+{
+    "presets": [
+        "@babel/preset-react",
+        [
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "node": true
+                }
+            }
+        ]
+    ],
+    "plugins": [
+        [
+            "babel-plugin-root-import",
+            {
+                "rootPathSuffix": "./src",
+                "rootPathPrefix": "~/"
+            }
+        ],
+        "@babel/plugin-syntax-class-properties"
+    ]
+}
